@@ -1,12 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./tugas.css">
 </head>
+
 <body>
-    
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-md">
+            <a class="navbar-brand" href="#">E-sportspedia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll text-white"
+                    style="--bs-scroll-height: 100px">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Tournament
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#page1">M4 World Championship</a></li>
+                            <li><a class="dropdown-item" href="#page2">About The Tournament</a></li>
+                            <li><a class="dropdown-item" href="#page3">Participants</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar end -->
+    <!-- Content start -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center mt-2 text-dark">
+                <p class="bg-success p-2 rounded-2 text-white" id="Home">E-sportspedia merupakan sebuah website yang menampilkan
+                    berbagai macam
+                    konten terkait dengan turnamen yang diselenggarakan oleh MLBB.</p>
+            </div>
+            <div class="col-12 text-center border-bottom border-5 border-warning mt-3">
+                <h2 id="page1">M4 World Championship <img class="text-center" src="./assets/M4_World_allmode.png" alt="" class=""
+                        width="50" height="50"></h2>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-12 mx-auto mt-2">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-warning text-center" aria-current="true">
+                            Previous M3 World Tournament Winner <img src="./assets/M3_World_allmode.png" alt=""
+                                height="20">
+                        </a>
+                        <a href="#" class="list-group-item text-center">1. <img
+                                src="./assets/38px-Blacklist_International_lightmode.png" alt="" height="20">
+                            Blacklist Internasional</a>
+                        </a>
+                        <a href="#" class="list-group-item text-center">2. <img
+                                src="./assets/111px-Onic_Philippines_allmode_new.png" alt="" height="20">
+                            ONIC Philippines</a>
+                        </a>
+                        <a href="#" class="list-group-item text-center">3. <img
+                                src="./assets/56px-BloodThirstyKings_allmode.png" alt="" height="20">
+                            BloodThirstyKings</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-2 mx-auto" >
+                    <p> The M4 World Championship is the final event and the World Championship of the 2022
+                        Competitive Season organized by Moonton. Best teams throughout the year have qualified
+                        to this event.</p>
+                    <p> The venue of M4 Group Stage changed from MPL Arena (XO Hall) to Bali United Studio and
+                        M4 Knockout Stage changed from Istora Senayan GBK to Tennis Indoor Stadium Senayan due
+                        to these unforeseen circumstances and in order to provide the best possible experience
+                        for fans.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center mt-5 border-bottom border-5 border-warning ">
+                <h2 id="page2">About The Tournament <img class="text-center" src="./assets/M4_World_allmode.png" alt="" class=""
+                        width="50" height="50"></h2>
+            </div>
+            <div class="col-12 mt-4">
+                <h2>Format</h2>
+                <ul>
+                    <li>
+                        <h5>Group Stage:</h5>January 1st - 4th, 2022
+                    </li>
+                    <ul>
+                        <li>16 teams are split into 4 groups of 4 teams.</li>
+                        <li>Single round robin, all matches are played in a Bo1.</li>
+                        <li>Group Top 2 advances to Playoffs Upper Bracket</li>
+                        <li>Group Bottom 2 advances to Playoffs Lower Bracket</li>
+                    </ul>
+                </ul>
+                <ul>
+                    <li>
+                        <h5>Knockout Stage:</h5>January 7st - 15th, 2022
+                    </li>
+                    <ul>
+                        <li>Double elimination</li>
+                        <li>Sixteen teams play in a double-elimination bracket.</li>
+                        <ul type="square">
+                            <li>Eight teams begin in the Upper Bracket, eight in the Lower Bracket.</li>
+                            <li>First two rounds of Lower Bracket is Bo3, Grand Final is Bo7, all others matches are
+                                Bo5.
+                            </li>
+                        </ul>
+                    </ul>
+                </ul>
+            </div>
+            <div class="col-12 mt-5">
+                <h2>Prize Pool</h2>
+                <p>$800,000 USD are spread among the participants as seen below:</p>
+                <div class="container">
+                    <table class="table table-bordered">
+                        <tr align="center">
+                            <th>Place</th>
+                            <th>$ USD</th>
+                            <th>Participant</th>
+                        </tr>
+                        <tr align="center" class="table-warning">
+                            <td> <img src="./assets/Gold.png" alt=""> 1st</td>
+                            <td>-</td>
+                            <td>TBD</td>
+                        </tr>
+                        <tr align="center" class="table-light">
+                            <td> <img src="./assets/Silver.png" alt=""> 2nd</td>
+                            <td>-</td>
+                            <td>TBD</td>
+                        </tr>
+                        <tr align="center" class="table-secondary">
+                            <td> <img src="./assets/Bronze.png" alt=""> 3rd</td>
+                            <td>-</td>
+                            <td>TBD</td>
+                        </tr>
+                        <tr align="center" class="table-success">
+                            <td> <img src="./assets/Copper.png" alt=""> 4th</td>
+                            <td>-</td>
+                            <td>TBD</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center mt-5 border-bottom border-5 border-warning ">
+                <h2 id="page3">Participants <img class="text-center" src="./assets/M4_World_allmode.png" alt="" class="" width="50"
+                        height="50"></h2>
+            </div>
+        </div>
+    </div>
+    <div class="container-sm">
+        <div class="row mt-2 text-center">
+                <table cellpadding="12">
+                    <tr>
+                        <td> <img src="./assets/Id_hd.png" width="20" alt=""> ONIC Esports</td>
+                        <td><img src="./assets/Id_hd.png" width="20" alt=""> RRQ Hoshi</td>
+                        <td><img src="./assets/Ph_hd.png" width="20" alt=""> Blacklist International</td>
+                        <td><img src="./assets/Ph_hd.png" width="20" alt=""> ECHO</td>
+                    </tr>
+                    <tr class="responsive">
+                        <td><img src="./assets/285px-ONIC_Esports_2020_allmode.png" height="150" width="150" alt=""></td>
+                        <td><img src="./assets/285px-Rex_Regum_Qeon_allmode.png" height="150" width="150" alt=""></td>
+                        <td><img src="./assets/145px-Blacklist_International_lightmode.png" height="150" width="150" alt="">
+                        </td>
+                        <td><img src="./assets/273px-ECHO_allmode.png" height="150" width="150" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><img src="./assets/My_hd.png" width="20" alt=""> Team HAQ</td>
+                        <td><img src="./assets/My_hd.png" width="20" alt=""> TODAK</td>
+                        <td><img src="./assets/Ar_hd.png" width="20" alt=""> S11 Gaming Argentina</td>
+                        <td><img src="./assets/Pe_hd.png" width="20" alt=""> Malvinas Gaming</td>
+                    </tr>
+                    <tr class="responsive">
+                        <td><img src="./assets/285px-Team_HAQ_allmode.png" height="150" width="150" alt=""></td>
+                        <td><img src="./assets/193px-Todak_lightmode.png" height="150" width="150" alt=""></td>
+                        <td><img src="./assets/285px-S11_Gaming_Argentina_lightmode.png" height="150" width="150" alt="">
+                        </td>
+                        <td><img src="./assets/285px-Malvinas_Gaming_2022_lightmode.png" height="150" width="150" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="./assets/Sg_hd.png" width="20" alt=""> RSG Singapore</td>
+                        <td><img src="./assets/Kh_hd.png" width="20" alt=""> Burn x Team Flash</td>
+                        <td><img src="./assets/Br_hd.png" width="20" alt=""> RRQ Akira</td>
+                        <td><img src="./assets/Middle_east_flag_hd.png" width="20" alt=""> Occupy Thrones</td>
+                    </tr>
+                    <tr class="responsive">
+                        <td><img src="./assets/285px-RSG_allmode.png" height="150" width="150" alt=""></td>
+                        <td><img src="./assets/122px-BurnxFlash_allmode.png" height="150" width="150" alt=""></td>
+                        <td><img src="./assets/285px-Rex_Regum_Qeon_allmode.png" height="150" width="150" alt=""></td>
+                        <td><img src="./assets/256px-Occupy_Thrones_lightmode.png" height="150" width="150" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><img src="./assets/Tr_hd.png" width="20" alt=""> Incendio Supremacy</td>
+                        <td><img src="./assets/UsCa_hd.png" width="20" alt=""> The Valley</td>
+                        <td><img src="./assets/My_hd.png" width="20" alt=""> Falcon Esports</td>
+                        <td><img src="./assets/Vn_hd.png" width="20" alt=""> MDH Esports</td>
+                    </tr>
+                    <tr class="responsive">
+                        <td><img src="./assets/285px-Incendio_Supremacy_allmode.png" height="150" width="150" alt=""></td>
+                        <td><img src="./assets/285px-The_Valley_lightmode.png" height="150" width="150" alt=""></td>
+                        <td><img src="./assets/271px-Falcon_Esports_Myanmar_allmode.png" height="150" width="150" alt="">
+                        </td>
+                        <td><img src="./assets/285px-MDH_Esports_2022_allmode.png" height="150" width="150" alt=""></td>
+                    </tr>
+                </table>
+     
+        </div>
+        <!-- Content end -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
 </body>
+
 </html>
