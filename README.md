@@ -12,6 +12,8 @@
 	
 # 📋 Live Preview Praktikum dan Tugas
 
-* [Pertemuan 1](https://replit.com/@Rangga-KrisnaKr/Pertemuan1?v=1#index.html)
+* [Pertemuan 1](https://replit.com/@Rangga-KrisnaKr/Pertemuan1)
 * [Pertemuan 2 & 3](https://replit.com/@Rangga-KrisnaKr/Pertemuan2and3)
 * [Pertemuan 4]
+
+Notes: Ubah nama file menjadi index pada file praktik/tugas agar bisa dijalankan didalam Replit
