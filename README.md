@@ -12,6 +12,6 @@
 	
 # 📋 Live Preview Tugas
 
-	* .[Praktikum 1]
-	* .[Praktikum 2]
-	* .[Praktikum 3]
+	* [Praktikum 1](http://https://github.com/datascienceid/README#mengunduh-repository)
+	* [Praktikum 2]
+	* [Praktikum 3]
