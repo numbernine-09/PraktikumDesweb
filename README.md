@@ -16,4 +16,4 @@
 * [Pertemuan 2 & 3](https://replit.com/@Rangga-KrisnaKr/Pertemuan2and3)
 * [Pertemuan 4]
 
-Notes: Ubah nama file menjadi index pada file praktik/tugas agar bisa dijalankan didalam Replit.
+Notes: Ubah nama file menjadi index pada file praktik/tugas praktikum agar bisa dijalankan didalam Replit.
