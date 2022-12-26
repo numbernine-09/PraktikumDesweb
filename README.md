@@ -1,5 +1,5 @@
 #  💻 Praktikum Desain Web
-Nama    : Rangga Krisna Putra
+Nama    : Rangga Krisna Putra 
 NIM     : 21104410068
 Kelas   : TI-B
 Jurusan : Tehnik Informatika
