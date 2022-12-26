@@ -5,5 +5,5 @@
 	Jurusan : Tehnik Informatika
 	Kampus  : Universitas Islam Balitar
 # 😎 Author
-	Rangga krisna Putra
+	@Rangga krisna Putra
 # 📋 Live Preview Tugas
