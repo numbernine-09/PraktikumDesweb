@@ -12,6 +12,6 @@
 	
 # 📋 Live Preview Tugas
 
-* [Pertemuan 1]([https://replit.com/@Rangga-KrisnaKr/Pertemuan1?v=1])
+* [Pertemuan 1]([https://replit.com/@Rangga-KrisnaKr/Pertemuan1])
 * [Pertemuan 2 & 3]([https://replit.com/@Rangga-KrisnaKr/Pertemuan2and3])
 * [Pertemuan 4]
