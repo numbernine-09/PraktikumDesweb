@@ -7,6 +7,6 @@
 # 😎 Author
 	@Rangga krisna Putra
 # 📋 Live Preview Tugas
-	*Praktikum 1 :
-	*Praktikum 2 :
-	*Praktikum 3 :
+	* .[Praktikum 1]
+	* .[Praktikum 2]
+	* .[Praktikum 3]
