@@ -8,7 +8,7 @@
 	
 # 😎 Author
 
-*@[Rangga krisna Putra](https://github.com/numbernine-09)
+* @[Rangga krisna Putra](https://github.com/numbernine-09)
 	
 # 📋 Live Preview Praktikum dan Tugas
 
