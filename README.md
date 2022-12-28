@@ -2,7 +2,7 @@
 
 	Nama    : Rangga Krisna Putra 
 	NIM     : 21104410068
-	Kelas   : TI-B
+	Kelas   : TI-3B
 	Jurusan : Tehnik Informatika
 	Kampus  : Universitas Islam Balitar
 	
