@@ -14,6 +14,6 @@
 
 * [Pertemuan 1](https://replit.com/@Rangga-KrisnaKr/Pertemuan1)
 * [Pertemuan 2 & 3](https://replit.com/@Rangga-KrisnaKr/Pertemuan2and3)
-* [Pertemuan 4]()
+* [Pertemuan 4]() ON PROGRESS
 
 Notes: Ubah nama file menjadi index pada file praktik/tugas praktikum agar bisa dijalankan didalam Replit.
