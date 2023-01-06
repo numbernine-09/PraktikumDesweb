@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tugas | Rangga Krisna | 21104410068</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* style jeader */
+    header {
+      background-color: #666;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+
+    /* create two colums/boxes that floats next to each other */
+    nav {
+      float: left;
+      width: 30%;
+      height: 300px;
+      background: #ccc;
+      padding: 20px;
+    }
+
+    /* style the list inside the menu */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    article {
+      float: left;
+      padding: 20px;
+      width: 70%;
+      background-color: #f1f1f1;
+      height: 300px;
+
+    }
+
+    /* clear the floats after the column */
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* style the footer */
+    footer {
+      background-color: #777;
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+
+    /* responsive layout - makes two column/boxes stack on the top of each other instead of next to */
+    @media (maxwidth: 600px) {
+
+      nav,
+      article {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h2>Cities</h2>
+  </header>
+  <section>
+    <nav>
+      <ul>
+        <li><a href="">London</a></li>
+        <li><a href="">Paris</a></li>
+        <li><a href="">Tokyo</a></li>
+      </ul>
+    </nav>
+    <article>
+      <h1>London</h1>
+      <p>
+        London is the capital city of England. It is the most populous city in
+        the United
+      </p>
+    </article>
+  </section>
+  <footer>
+    <p>Footer</p>
+  </footer>
+</body>
+
+</html>

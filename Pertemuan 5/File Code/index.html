@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index - tugas praktikum</title>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- embeded CSS  -->
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #051923;
+      }
+
+      /* style header */
+      header {
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+        border-radius: 10px;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.527),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url(./assets/ae.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      /* style img */
+      header img {
+        width: 100px;
+        height: 80px;
+      }
+
+      /* create two colums/boxes that floats next to each other */
+      nav {
+        float: left;
+        width: 30%;
+        height: 300px;
+        background: #2b2d42;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 10px;
+      }
+
+      /* style the list inside the menu */
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      nav ul li a {
+        color: white;
+      }
+
+      article {
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color: #f1faee;
+        height: 300px;
+        margin-top: 10px;
+        overflow: auto;
+        border-radius: 10px;
+      }
+
+      .container {
+        background-color: #ffd23f;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        margin-inline: auto;
+      }
+
+      .card-box{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .card-box .box {
+        margin-inline: 20px;
+      }
+
+      .card-box .box img {
+        width: 500px;
+        border-radius: 10px;
+      }
+
+      /* clear the floats after the column */
+      section::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* style the footer */
+      footer {
+        background-color: #0b2c28;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        margin-top: 10px;
+        border-radius: 10px;
+      }
+      
+      /* responsive layout - makes two column/boxes stack on the top of each other instead of next to */
+      @media (max-width: 600px) {
+        nav,
+        article {
+          width: 100%;
+          height: auto;
+        }
+
+        .card-box {
+          flex-direction: column;
+        }
+
+        .card-box .box img {
+          width: 260px;
+        }
+        
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h2>MPL Indonesia Season 10 <img src="./assets/mpl.png" alt="" /></h2>
+    </header>
+    <section>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./participant.html">Participants</a></li>
+        </ul>
+      </nav>
+      <article>
+        <div class="container">
+          <h2>MPL Indonesia Season 10</h2>
+        </div>
+        <p align="center">
+          MPL Indonesia (also known as MPL ID) is a Professional League in
+          Indonesia Indonesia. For the 7th consecutive season, the league adopts
+          a franchise system.
+        </p>
+        <div class="container">
+          <div class="card-box">
+            <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+              <h1>MPL S10 WINNER</h1>
+              <img src="./assets/onicwin2.jpg" alt="">
+          </div>
+            <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+              <h1>MPL S9 WINNER</h1>
+              <img src="./assets/rrqwin.png" alt="">
+            </div>
+            <div class="box"  data-aos="zoom-in" data-aos-duration="1000">
+              <h1>MPL S8 WINNER</h1>
+              <img src="./assets/Web Champion.jpg" alt="">
+          </div>
+            <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+              <h1>MPL S7 WINNER</h1>
+              <img src="./assets/juara.webp" alt="">
+          </div>
+
+        </div>
+      </article>
+    </section>
+    <footer>
+      <p>Rangga Krisna Putra | 21104410068 | TI-3B</p>
+    </footer>
+  <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

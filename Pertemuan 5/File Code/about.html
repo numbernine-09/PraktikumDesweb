@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about - tugas praktikum</title>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+          * {
+            box-sizing: border-box;
+          }
+
+          body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #051923;
+          }
+
+          /* style header */
+          header {
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+            border-radius: 10px;
+            background-image: linear-gradient(
+                rgba(0, 0, 0, 0.527),
+                rgba(0, 0, 0, 0.5)
+              ),
+              url(./assets/ae.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+
+          /* style img */
+          header img {
+            width: 100px;
+            height: 80px;
+          }
+
+          /* create two colums/boxes that floats next to each other */
+          nav {
+            float: left;
+            width: 30%;
+            height: 300px;
+            background: #2b2d42;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 10px;
+          }
+
+          /* style the list inside the menu */
+          nav ul {
+            list-style-type: none;
+            padding: 0;
+          }
+
+          nav ul li a {
+            color: white;
+          }
+
+          article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1faee;
+            height: 300px;
+            margin-top: 10px;
+            overflow: auto;
+            border-radius: 10px;
+          }
+
+          .container {
+            text-align: center;
+            border-bottom: 5px solid #ffd23f;
+          }
+
+          .container img {
+            width: 30px;
+            height: 30px;
+          }
+
+          /* clear the floats after the column */
+          section::after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+
+          /* style the footer */
+          footer {
+            background-color: #0b2c28;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            margin-top: 10px;
+            border-radius: 10px;
+          }
+
+          /* responsive layout - makes two column/boxes stack on the top of each other instead of next to */
+          @media (max-width: 600px) {
+            nav,
+            article {
+              width: 100%;
+              height: auto;
+            }
+          }
+        </style>
+      </head>
+
+      <body>
+        <header>
+          <h2>MPL Indonesia Season 10 <img src="./assets/mpl.png" alt="" /></h2>
+        </header>
+        <section>
+          <nav>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./participant.html">Participants</a></li>
+            </ul>
+          </nav>
+          <article>
+            <div class="container">
+              <h2>About the League <img src="./assets/mpl.png" alt="" /></h2>
+            </div>
+            <h2>Format</h2>
+            <ul>
+              <li>
+                <h5>Regular Season: August 12th - October 2nd, 2022</h5>
+              </li>
+              <ul>
+                <li>Double Round Robin</li>
+                <li>All Matches are Bo3</li>
+                <ul type="square">
+                  <li>Earn 1 point for each game win</li>
+                  <li>Earn -1 point for each game lose</li>
+                </ul>
+                <li>Top 6 teams will advance to playoffs</li>
+              </ul>
+            </ul>
+            <ul>
+              <li>
+                <h5>Playoffs: October 19th - October 23th, 2022</h5>
+              </li>
+              <ul>
+                <li>Hybrid Elimination</li>
+                <ul type="square">
+                  <li>
+                    3rd to 6th seeded teams compete in Round 1 (Single
+                    Elimination)
+                  </li>
+                  <li>
+                    1st and 2nd seeded teams recieved a round by and will start
+                    in Round 2 (Double Elimination)
+                  </li>
+                </ul>
+                <li>All Matches except Grand Final is played in a Bo5</li>
+                <li>Grand Final is played in a Bo7</li>
+              </ul>
+            </ul>
+          </article>
+        </section>
+        <footer>
+          <p>Rangga Krisna Putra | 21104410068 | TI-3B</p>
+        </footer>
+      </body>
+    </html>
+  </body>
+</html>
